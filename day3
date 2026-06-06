@@ -1,0 +1,104 @@
+# Day 3 - Role-Based Prompting
+
+## What is Role-Based Prompting?
+
+Role-Based Prompting means assigning a specific role or persona to an AI before asking a question.
+
+Example:
+"You are a startup founder."
+"You are a software engineer."
+"You are a product manager."
+
+This helps AI generate responses from that perspective.
+
+---
+
+## Why It Matters
+
+- Produces more relevant responses
+- Provides expert-level thinking
+- Helps solve problems from different perspectives
+- Improves decision-making
+
+---
+
+## Experiment
+
+### Question
+
+How can I launch a successful AI-powered note-taking app?
+
+---
+
+### Without Role
+
+Prompt:
+How can I launch a successful AI-powered note-taking app?
+
+Output Summary:
+- Research market
+- Build MVP
+- Collect feedback
+- Improve product
+
+---
+
+### Founder Persona
+
+Prompt:
+You are an experienced startup founder who has built multiple SaaS businesses.
+
+How can I launch a successful AI-powered note-taking app?
+
+Output Summary:
+- Validate market demand
+- Focus on customer pain points
+- Build subscription model
+- Create growth strategy
+
+Observation:
+Founder focused on business growth and monetization.
+
+---
+
+### Developer Persona
+
+Prompt:
+You are a senior software engineer specializing in AI applications.
+
+How can I launch a successful AI-powered note-taking app?
+
+Output Summary:
+- Select technology stack
+- Integrate AI models
+- Design scalable architecture
+- Secure user data
+
+Observation:
+Developer focused on technical implementation.
+
+---
+
+## Key Learnings
+
+1. Role-Based Prompting improves output quality.
+2. Different roles provide different viewpoints.
+3. Expert personas generate more specialized responses.
+4. Useful for founders, developers, marketers, and managers.
+
+---
+
+## Claude Usage Counter
+
+Installed and explored the extension.
+
+Observations:
+- Tracks message usage.
+- Estimates remaining quota.
+- Helps manage Claude usage efficiently.
+
+---
+
+## Conclusion
+
+Role-Based Prompting is a powerful technique that helps users receive expert-level responses by assigning a specific persona to the AI.
