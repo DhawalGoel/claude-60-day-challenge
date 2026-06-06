@@ -1,0 +1,48 @@
+# Day 4 - Chain-of-Thought Prompting
+
+## What is Chain-of-Thought Prompting?
+
+Chain-of-Thought Prompting is a technique that asks AI to think step-by-step before generating a final answer.
+
+## Experiment
+
+### Question
+
+How can I become job-ready in AI within 12 months?
+
+### Without Chain-of-Thought
+
+(Output summary)
+
+### With Chain-of-Thought
+
+(Output summary)
+
+## Comparison
+
+- Better reasoning
+- More detailed answers
+- Personalized recommendations
+- Improved decision-making
+
+## Key Learnings
+
+1. Breaking problems into steps improves accuracy.
+2. AI produces more reliable outputs.
+3. Complex planning becomes easier.
+4. Career roadmaps become more actionable.
+
+## Tool Used
+
+Capsule Hub Chrome Extension
+
+### Observations
+
+- Stores prompts
+- Organizes workflows
+- Reuses instructions
+- Improves prompt management
+
+## Conclusion
+
+Chain-of-Thought Prompting helps AI generate more thoughtful, accurate, and structured responses by reasoning through problems step-by-step.
