@@ -1,0 +1,31 @@
+# Day 5 - Context Engineering
+
+## Prompt A Output
+(Paste Claude's output)
+
+## Screenshot
+(Add screenshot)
+
+## Prompt B Output
+(Paste Claude's output)
+
+## Screenshot
+(Add screenshot)
+
+## Comparison
+
+### Which roadmap feels more personalized?
+Prompt B
+
+### Which roadmap would you actually follow?
+Prompt B
+
+### What role did context play?
+Context helped Claude generate a roadmap based on my goals, skills, and available time.
+
+## Key Learnings
+
+1. Better context = Better outputs.
+2. AI makes fewer assumptions when given background information.
+3. Personalized prompts produce more useful results.
+4. Context Engineering is important for AI agents and real-world applications.
