@@ -1,0 +1,20 @@
+# Day 8 - Claude Artifacts
+
+## What I Built
+
+Personal Environmental Health Analyzer Dashboard
+
+## Features
+
+- AQI Analysis
+- Water Quality Analysis
+- Interactive Charts
+- City Filters
+- Health Scorecard
+
+## Key Learnings
+
+1. Claude can generate complete applications.
+2. Artifacts are more powerful than normal chat responses.
+3. AI can create dashboards with minimal coding.
+4. Prompt quality directly impacts application quality.
