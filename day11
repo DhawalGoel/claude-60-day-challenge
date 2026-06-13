@@ -1,0 +1,127 @@
+# Day 11 – ATS Resume Optimizer & Resume Generator
+
+## Objective
+
+Learn how Applicant Tracking Systems (ATS) evaluate resumes and optimize a resume to improve visibility, keyword alignment, and recruiter readability.
+
+---
+
+## ATS Analysis
+
+### ATS Match Score
+
+**Overall Match Score:** 86%
+
+### Score Breakdown
+
+| Category         | Score |
+| ---------------- | ----- |
+| Skills Match     | 90%   |
+| Experience Match | 85%   |
+| Keywords Match   | 88%   |
+| Education Match  | 80%   |
+
+### Top Matched Keywords
+
+* Python
+* SQL
+* Data Analysis
+* Machine Learning
+* Pandas
+* NumPy
+* Data Visualization
+* Problem Solving
+
+---
+
+## Gap Analysis
+
+### Missing Keywords
+
+* Power BI
+* Tableau
+* Scikit-learn
+* Deep Learning
+* Data Modeling
+
+### Missing Skills
+
+* Advanced Excel
+* Power BI
+* Tableau
+* Model Evaluation
+* Data Storytelling
+
+### Improvement Opportunities
+
+* Add more quantified achievements
+* Improve project descriptions
+* Include more JD-relevant keywords
+* Enhance professional summary
+* Add tools and technologies section
+
+---
+
+## ATS Optimization Strategy
+
+### Changes Applied
+
+✅ Aligned resume content with Job Description keywords
+
+✅ Improved Professional Summary
+
+✅ Rewrote project descriptions for better impact
+
+✅ Enhanced skills section
+
+✅ Improved ATS readability and formatting
+
+✅ Maintained 100% factual accuracy
+
+---
+
+## Resume Transformation
+
+### Before Optimization
+
+* Generic project descriptions
+* Limited keyword usage
+* Weak professional summary
+* Minimal impact-oriented bullet points
+* ATS score lower due to keyword gaps
+
+### After Optimization
+
+* Job-specific keyword alignment
+* Stronger professional summary
+* Detailed project descriptions
+* Improved ATS compatibility
+* Better recruiter readability
+
+---
+
+## Key Learnings
+
+1. ATS systems scan resumes before recruiters review them.
+2. Keyword alignment significantly improves resume visibility.
+3. Professional formatting increases ATS compatibility.
+4. Quantified achievements make resumes stronger.
+5. Resume optimization should improve presentation without adding false information.
+6. Job Description analysis helps identify missing skills and keywords.
+7. Small wording changes can have a major impact on ATS performance.
+
+---
+
+## Files Included
+
+* ATS_Analysis.png
+* Resume_Before.png
+* Resume_After.png
+* Optimized_Resume.pdf
+* day11.md
+
+---
+
+## Outcome
+
+Successfully analyzed a resume against a target Job Description, identified gaps, optimized the content for ATS compatibility, and generated a recruiter-friendly resume while maintaining complete factual accuracy.
