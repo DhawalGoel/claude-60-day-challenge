@@ -1,0 +1,44 @@
+🚩 AI Job Red Flag Detector
+Overview
+
+This project demonstrates how AI can help job seekers evaluate opportunities before applying. Using Claude, job descriptions are analyzed to identify potential red flags, company risks, remote-work concerns, and important interview questions.
+
+Objective
+Detect hidden red flags in job postings
+Evaluate company-related risks
+Validate remote-work claims
+Generate smart interview questions
+Prompt Used
+Analyze this job description and provide:
+
+1. Potential red flags
+2. Company-related risks
+3. Hidden expectations
+4. Remote-work validation
+5. Suggested interview questions
+
+[Paste Job Description Here]
+Example Findings
+Red Flags
+Weekend work expectations
+No salary transparency
+Vague responsibilities
+Remote Work Concerns
+Advertised as remote but requires office visits
+Possible hybrid role
+Interview Questions
+What does success look like in the first 90 days?
+How often are office visits required?
+How is work-life balance maintained?
+Key Learnings
+AI can quickly identify risks in job descriptions.
+Job applications are a two-way evaluation process.
+Better interview questions lead to better career decisions.
+Tools Used
+Claude AI
+Prompt Engineering
+Conclusion
+
+This project showcases how AI can act as a career intelligence assistant, helping candidates make smarter and more informed job application decisions.
+
+Day 14 – ABTalks 60-Day Challenge ✅
