@@ -1,0 +1,30 @@
+# 🚗 Day 17 – AI Vehicle Cost & Fuel Analysis Dashboard
+
+## Overview
+Built an AI-assisted dashboard that transforms raw vehicle CSV data into interactive visual insights. The project focuses on analyzing fuel consumption, vehicle operating costs, mileage, and maintenance expenses to support better decision-making.
+
+## Execution
+- Imported and explored the vehicle CSV dataset.
+- Cleaned missing, duplicate, and inconsistent data.
+- Calculated fuel cost, cost per kilometer, mileage, and maintenance metrics.
+- Performed exploratory data analysis to identify trends and compare vehicle performance.
+- Created an interactive dashboard with KPI cards, charts, and filters.
+- Used Claude AI to assist with data analysis, visualization ideas, and insight generation.
+
+## Features
+- Fuel Cost Analysis
+- Mileage Comparison
+- Vehicle Cost Breakdown
+- Maintenance Analysis
+- Interactive Charts & KPIs
+- AI-Generated Insights
+
+## Tech Stack
+- Python
+- Pandas
+- Plotly
+- Streamlit
+- Claude AI
+
+## Outcome
+Successfully converted raw CSV data into an interactive dashboard that provides clear insights into vehicle performance, fuel efficiency, and overall operating costs.
