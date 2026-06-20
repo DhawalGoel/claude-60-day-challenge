@@ -1,0 +1,28 @@
+# 🧠 Day 18 – Brain Dump Action Planner Skill
+
+## Overview
+Built a Claude Custom Skill that transforms unstructured thoughts, ideas, and tasks into a clear, organized action plan. The skill helps convert mental clutter into prioritized tasks, making planning more efficient and productive.
+
+## Execution
+- Designed a reusable Claude Custom Skill.
+- Created a structured prompt for brain dump analysis.
+- Organized scattered thoughts into actionable tasks.
+- Categorized items by priority and urgency.
+- Generated step-by-step action plans with deadlines and next actions.
+- Optimized the workflow for quick reuse without rewriting prompts.
+
+## Features
+- Brain Dump Organization
+- Task Prioritization
+- Action Plan Generation
+- Goal Breakdown
+- Next-Step Recommendations
+- Reusable Claude Custom Skill
+
+## Tools Used
+- Claude AI
+- Claude Custom Skills
+- Prompt Engineering
+
+## Outcome
+Successfully developed a reusable AI-powered planning workflow that converts chaotic thoughts into a structured, prioritized action plan, improving productivity and decision-making.
