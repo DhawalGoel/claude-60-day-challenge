@@ -1,0 +1,30 @@
+# ⚽ Day 19 – Football Intelligence Hub
+
+## Overview
+Built an AI-powered Football Intelligence Hub using Claude to transform football data into meaningful insights, performance assessments, match predictions, and team analysis. The project demonstrates how AI can assist in sports analytics and strategic decision-making.
+
+## Execution
+- Collected and analyzed football performance data.
+- Organized team and player statistics for analysis.
+- Evaluated player and team performance metrics.
+- Generated match predictions using historical insights.
+- Created visual dashboards with charts and key performance indicators.
+- Used Claude AI to summarize findings and generate actionable football insights.
+
+## Features
+- Team Performance Analysis
+- Player Statistics Dashboard
+- Match Prediction
+- Performance Comparison
+- Interactive Charts & KPIs
+- AI-Generated Insights
+
+## Tools Used
+- Claude AI
+- Python
+- Pandas
+- Plotly
+- Sports Analytics
+
+## Outcome
+Successfully developed an AI-assisted Football Intelligence Hub that converts raw football data into interactive visualizations, performance insights, and prediction-based analysis for smarter decision-making.
