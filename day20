@@ -1,0 +1,53 @@
+# 🤖 AI Face Puzzle Game
+
+## 📌 Overview
+This project demonstrates how AI can be used to build an interactive face puzzle game using Claude. The application transforms a user's face into a movable puzzle grid, allowing players to rearrange shuffled pieces and complete the original image.
+
+The objective is to explore AI-assisted application development while combining image processing, game logic, and an engaging user interface.
+
+---
+
+## 🚀 Features
+
+- Upload a facial image
+- Automatic puzzle generation
+- Adjustable puzzle difficulty
+- Drag-and-drop tile movement
+- Shuffle and reset functionality
+- Move counter
+- Completion detection
+- Responsive user interface
+- AI-assisted game logic with Claude
+
+---
+
+## 🛠️ Workflow
+
+### Step 1
+Upload a facial image.
+
+### Step 2
+The application detects and prepares the image.
+
+### Step 3
+The image is divided into puzzle tiles.
+
+### Step 4
+Tiles are randomly shuffled.
+
+### Step 5
+The player rearranges tiles using drag-and-drop interactions.
+
+### Step 6
+The application checks puzzle completion and displays success once solved.
+
+---
+
+## 💡 Technologies Used
+
+- Claude AI
+- HTML
+- CSS
+- JavaScript
+- Image Processing
+- Drag-and-Drop
