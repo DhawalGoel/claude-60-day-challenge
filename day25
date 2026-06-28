@@ -1,0 +1,96 @@
+# 🦈 Day 25 – AI Shark Tank Simulator
+
+> ABTalks 60-Day Coding Challenge
+
+## 🚀 Project Overview
+
+The AI Shark Tank Simulator is an interactive entrepreneurship application where founders pitch their startup ideas to AI-powered investors. The simulator evaluates business concepts across multiple parameters and generates realistic investor feedback, funding decisions, and improvement suggestions.
+
+This project demonstrates how Large Language Models can be used for startup validation, investment analysis, and entrepreneurial learning.
+
+---
+
+## 🎯 Features
+
+* Startup Pitch Submission
+* AI Investor Panel
+* Market Opportunity Analysis
+* Business Model Evaluation
+* Revenue Model Review
+* Competitive Advantage Assessment
+* Risk Analysis
+* Funding Recommendation
+* Investor Questions
+* Pitch Scorecard
+* Final Investment Decision
+
+---
+
+## 🛠 Tech Stack
+
+* Claude AI
+* Markdown
+* GitHub
+* Prompt Engineering
+
+---
+
+## 📊 Evaluation Criteria
+
+| Parameter          | Score  |
+| ------------------ | ------ |
+| Problem Validation | 9/10   |
+| Market Size        | 8.5/10 |
+| Innovation         | 9/10   |
+| Revenue Model      | 8/10   |
+| Scalability        | 9.5/10 |
+| Team Strength      | 8.5/10 |
+| Competitive Edge   | 9/10   |
+
+Overall Score: **8.8/10**
+
+---
+
+## 💰 Investment Decision
+
+✅ Recommended for Seed Funding
+
+Suggested Investment:
+**₹50 Lakhs for 10% Equity**
+
+---
+
+## 📈 Learning Outcomes
+
+* Startup Pitching
+* Investor Thinking
+* Business Validation
+* Financial Planning
+* AI Prompt Engineering
+* Entrepreneurship Strategy
+
+---
+
+## Repository Structure
+
+```
+📁 day-25-ai-shark-tank-simulator
+ ├── README.md
+ ├── prompt.md
+ ├── startup_pitch.md
+ ├── investor_feedback.md
+ ├── evaluation_scorecard.md
+ └── screenshots/
+```
+
+---
+
+## Challenge
+
+ABTalks 60-Day Coding Challenge
+
+Day 25 — Entrepreneurship Applications with Claude
+
+Build an AI Shark Tank Simulator
+
+Completed successfully ✅
