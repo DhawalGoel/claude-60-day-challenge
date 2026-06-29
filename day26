@@ -1,0 +1,53 @@
+# 🏥 Prior Authorization Workflow Simulator
+
+An interactive healthcare workflow simulator built as part of the ABTalks 60-Day Coding Challenge (Day 26).
+
+## 📌 Overview
+
+The Prior Authorization Workflow Simulator demonstrates how healthcare providers and insurance companies manage approval requests before treatments, procedures, or medications are authorized.
+
+The simulator walks users through each stage of the authorization process using an interactive workflow.
+
+## ✨ Features
+
+- Patient Registration
+- Insurance Verification
+- Authorization Request Submission
+- Clinical Review
+- Decision Making
+- Patient & Provider Notification
+- Interactive workflow visualization
+- Progress tracking
+- Decision-based simulation
+
+## 🛠 Tech Stack
+
+- Python
+- Streamlit
+- HTML/CSS
+- Claude AI (Planning & Workflow Design)
+
+
+## 🚀 Learning Outcomes
+
+- Understanding healthcare business workflows
+- Process simulation design
+- Decision-based workflow logic
+- Interactive application development
+- Business process visualization
+
+## 🎯 Future Improvements
+
+- Multiple insurance providers
+- Real-time analytics dashboard
+- AI-assisted approval prediction
+- User authentication
+- Workflow history and reporting
+
+---
+
+### ABTalks 60-Day Coding Challenge
+
+**Day 26 — Business Workflow Simulation with Claude**
+
+Built with ❤️ using Python & Claude AI.
