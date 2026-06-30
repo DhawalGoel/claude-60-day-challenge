@@ -1,0 +1,25 @@
+# Prior Authorization Story Simulator
+
+An interactive AI-powered healthcare workflow simulator that teaches the Prior Authorization process through branching conversations.
+
+## Features
+
+- Interactive healthcare scenarios
+- Patient, Provider and Insurance perspectives
+- Multiple story endings
+- AI-generated responses
+- Appeal workflow simulation
+- Decision tree visualization
+
+## Technologies
+
+- Python
+- Claude API
+- Prompt Engineering
+
+## Learning Outcomes
+
+- Healthcare Prior Authorization workflow
+- Decision-making logic
+- Interactive storytelling
+- AI conversation design
