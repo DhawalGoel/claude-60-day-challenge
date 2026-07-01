@@ -1,0 +1,55 @@
+{
+  "name": "hospital-admission-simulator",
+  "version": "1.0.0",
+  "description": "Interactive hospital admission readiness simulator - Experience healthcare workflows",
+  "main": "HospitalAdmissionSimulator.jsx",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "format": "prettier --write \"**/*.{js,jsx,css,md}\""
+  },
+  "keywords": [
+    "hospital",
+    "admission",
+    "healthcare",
+    "simulator",
+    "interactive",
+    "medical",
+    "workflow",
+    "patient",
+    "education",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.26",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.46.0",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/hospital-admission-simulator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/hospital-admission-simulator/issues"
+  },
+  "homepage": "https://github.com/yourusername/hospital-admission-simulator#readme",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}

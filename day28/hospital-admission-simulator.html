@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Admission Readiness Simulator</title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(to bottom, #f8fafc, #f1f5f9);
+            color: #1e293b;
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 48rem;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .header-icon {
+            width: 4rem;
+            height: 4rem;
+            background: #dbeafe;
+            border-radius: 9999px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+        }
+
+        .header-icon svg {
+            width: 2rem;
+            height: 2rem;
+            color: #2563eb;
+        }
+
+        .header h1 {
+            font-size: 1.875rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            color: #64748b;
+        }
+
+        .progress-section {
+            margin-bottom: 2rem;
+        }
+
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .progress-label span:first-child {
+            font-weight: 500;
+            color: #475569;
+        }
+
+        .progress-label span:last-child {
+            font-weight: 700;
+            color: #2563eb;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 0.5rem;
+            background: #e2e8f0;
+            border-radius: 9999px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(to right, #3b82f6, #1d4ed8);
+            border-radius: 9999px;
+            transition: width 0.3s ease;
+        }
+
+        .stages {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .stage-btn {
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .stage-btn svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin: 0 auto 0.25rem;
+        }
+
+        .stage-btn.current {
+            background: #2563eb;
+            color: white;
+            box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.2);
+            transform: scale(1.05);
+        }
+
+        .stage-btn.completed {
+            background: #22c55e;
+            color: white;
+        }
+
+        .stage-btn.inactive {
+            background: #e5e7eb;
+            color: #9ca3af;
+            cursor: not-allowed;
+        }
+
+        .card {
+            background: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .card-header {
+            margin-bottom: 1.5rem;
+        }
+
+        .card-title {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-title svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            color: #2563eb;
+        }
+
+        .card-title h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .card-subtitle {
+            color: #64748b;
+            font-size: 0.875rem;
+        }
+
+        .divider {
+            height: 1px;
+            background: #e2e8f0;
+            margin: 1.5rem 0;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #1e293b;
+            margin-bottom: 0.5rem;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 0.5rem 1rem;
+            border: 1px solid #cbd5e1;
+            border-radius: 0.5rem;
+            font-family: inherit;
+            font-size: 1rem;
+            transition: all 0.2s;
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            ring: 2px;
+            border-color: transparent;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1), 0 0 0 1px #3b82f6;
+        }
+
+        .checklist {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            padding: 0.75rem;
+            background: white;
+            border: 1px solid #dbeafe;
+            border-radius: 0.5rem;
+        }
+
+        .checklist-item input[type="checkbox"] {
+            width: 1rem;
+            height: 1rem;
+            margin-top: 0.25rem;
+            accent-color: #3b82f6;
+            cursor: pointer;
+        }
+
+        .checklist-content {
+            flex: 1;
+        }
+
+        .checklist-text {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #1e293b;
+        }
+
+        .checklist-badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            margin-top: 0.25rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+        }
+
+        .badge-required {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .badge-important {
+            background: #fef3c7;
+            color: #b45309;
+        }
+
+        .alert {
+            padding: 1rem;
+            border-radius: 0.5rem;
+            border-left: 4px solid;
+            margin-bottom: 1rem;
+            font-size: 0.875rem;
+        }
+
+        .alert-info {
+            background: #dbeafe;
+            border-color: #3b82f6;
+            color: #1e40af;
+        }
+
+        .alert-warning {
+            background: #fef3c7;
+            border-color: #f59e0b;
+            color: #92400e;
+        }
+
+        .alert-success {
+            background: #dcfce7;
+            border-color: #22c55e;
+            color: #166534;
+        }
+
+        .btn-container {
+            display: flex;
+            gap: 1rem;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+
+        button {
+            padding: 0.625rem 1.5rem;
+            font-weight: 500;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.875rem;
+        }
+
+        .btn-prev {
+            background: #e5e7eb;
+            color: #1f2937;
+        }
+
+        .btn-prev:hover:not(:disabled) {
+            background: #d1d5db;
+        }
+
+        .btn-next {
+            background: #2563eb;
+            color: white;
+        }
+
+        .btn-next:hover:not(:disabled) {
+            background: #1d4ed8;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .completion-box {
+            background: linear-gradient(to bottom right, #f0fdf4, #dbeafe);
+            border: 2px solid #22c55e;
+            border-radius: 0.5rem;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .completion-icon {
+            width: 4rem;
+            height: 4rem;
+            margin: 0 auto 1rem;
+        }
+
+        .completion-icon svg {
+            width: 100%;
+            height: 100%;
+            color: #22c55e;
+        }
+
+        .completion-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #166534;
+            margin-bottom: 0.5rem;
+        }
+
+        .completion-subtitle {
+            color: #166534;
+            margin-bottom: 1rem;
+        }
+
+        .completion-details {
+            background: white;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-top: 1rem;
+            text-align: left;
+        }
+
+        .completion-detail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .completion-detail:last-child {
+            margin-bottom: 0;
+        }
+
+        .completion-detail-label {
+            color: #64748b;
+        }
+
+        .completion-detail-value {
+            font-weight: 600;
+            color: #22c55e;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.75rem;
+            color: #64748b;
+        }
+
+        .footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 640px) {
+            .card {
+                padding: 1.5rem;
+            }
+
+            .card-title h2 {
+                font-size: 1.25rem;
+            }
+
+            .stages {
+                grid-template-columns: repeat(5, 1fr);
+            }
+
+            .stage-btn {
+                padding: 0.5rem;
+                font-size: 0.65rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="header-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 14c1.49-1.46 3-3.5 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2 1.51 4.04 3 5.5m9 4l-4.5 4.5m0-7l4.5 4.5"/>
+                </svg>
+            </div>
+            <h1>Hospital Admission Simulator</h1>
+            <p>Experience the complete admission workflow</p>
+        </div>
+
+        <!-- Progress -->
+        <div class="progress-section">
+            <div class="progress-label">
+                <span>Progress</span>
+                <span id="progressPercent">0%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <!-- Stages -->
+        <div class="stages" id="stages"></div>
+
+        <!-- Main Card -->
+        <div class="card">
+            <div class="card-header">
+                <div class="card-title">
+                    <svg id="stageIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <h2 id="stageTitle">Pre-Admission Checklist</h2>
+                </div>
+                <p class="card-subtitle" id="stageDesc">Prepare for hospital arrival</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- Stage Content -->
+            <div id="stageContent"></div>
+
+            <!-- Navigation -->
+            <div class="btn-container">
+                <button class="btn-prev" id="prevBtn" onclick="previousStage()">← Previous</button>
+                <button class="btn-next" id="nextBtn" onclick="nextStage()">Next →</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p id="stageCounter">Stage 1 of 5</p>
+            <p>This is an educational simulator for understanding hospital admission processes</p>
+        </div>
+    </div>
+
+    <script>
+        let currentStage = 0;
+        let completedStages = [];
+        let formData = {
+            fullName: '',
+            age: '',
+            condition: '',
+            medications: '',
+            documents: false,
+            insurance: false,
+            emergency: false
+        };
+
+        const stages = [
+            {
+                title: 'Pre-Admission Checklist',
+                description: 'Prepare for hospital arrival',
+                icon: '🏠'
+            },
+            {
+                title: 'Personal Information',
+                description: 'Enter your details',
+                icon: '👥'
+            },
+            {
+                title: 'Medical History',
+                description: 'Share health information',
+                icon: '❤️'
+            },
+            {
+                title: 'Documents & Insurance',
+                description: 'Verify documents',
+                icon: '📄'
+            },
+            {
+                title: 'Admission Complete',
+                description: 'Ready for admission',
+                icon: '✓'
+            }
+        ];
+
+        const checklist = [
+            { id: 1, text: 'Identification documents', status: 'required' },
+            { id: 2, text: 'Insurance card', status: 'required' },
+            { id: 3, text: 'Current medications list', status: 'required' },
+            { id: 4, text: 'Medical reports & prescriptions', status: 'important' },
+            { id: 5, text: 'Emergency contact information', status: 'required' },
+            { id: 6, text: 'Hospital pre-authorization', status: 'important' }
+        ];
+
+        function updateStageDisplay() {
+            document.getElementById('stageTitle').textContent = stages[currentStage].title;
+            document.getElementById('stageDesc').textContent = stages[currentStage].description;
+            document.getElementById('stageCounter').textContent = `Stage ${currentStage + 1} of ${stages.length}`;
+
+            const progress = ((currentStage + 1) / stages.length) * 100;
+            document.getElementById('progressPercent').textContent = Math.round(progress) + '%';
+            document.getElementById('progressFill').style.width = Math.round(progress) + '%';
+
+            updateStageButtons();
+            renderStageContent();
+        }
+
+        function updateStageButtons() {
+            const stagesContainer = document.getElementById('stages');
+            stagesContainer.innerHTML = '';
+
+            stages.forEach((stage, index) => {
+                const btn = document.createElement('button');
+                btn.className = 'stage-btn';
+                btn.innerHTML = `<div>${stage.icon}</div><div>${stage.title.split(' ')[0]}</div>`;
+
+                if (index === currentStage) {
+                    btn.classList.add('current');
+                } else if (index < currentStage) {
+                    btn.classList.add('completed');
+                    btn.onclick = () => setStage(index);
+                } else {
+                    btn.classList.add('inactive');
+                }
+
+                stagesContainer.appendChild(btn);
+            });
+
+            document.getElementById('prevBtn').disabled = currentStage === 0;
+            document.getElementById('nextBtn').disabled = currentStage === stages.length - 1;
+        }
+
+        function renderStageContent() {
+            const content = document.getElementById('stageContent');
+            content.innerHTML = '';
+
+            switch (currentStage) {
+                case 0:
+                    renderChecklist(content);
+                    break;
+                case 1:
+                    renderPersonalInfo(content);
+                    break;
+                case 2:
+                    renderMedicalHistory(content);
+                    break;
+                case 3:
+                    renderDocuments(content);
+                    break;
+                case 4:
+                    renderCompletion(content);
+                    break;
+            }
+        }
+
+        function renderChecklist(container) {
+            const div = document.createElement('div');
+            div.innerHTML = `
+                <div class="alert alert-info" style="background: linear-gradient(to right, #dbeafe, #dbeafe); margin-bottom: 1rem;">
+                    <strong>Pre-Admission Checklist</strong>
+                </div>
+                <div class="checklist">
+                    ${checklist.map(item => `
+                        <div class="checklist-item">
+                            <input type="checkbox" checked />
+                            <div class="checklist-content">
+                                <div class="checklist-text">${item.text}</div>
+                                <span class="checklist-badge ${item.status === 'required' ? 'badge-required' : 'badge-important'}">
+                                    ${item.status}
+                                </span>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="alert alert-info" style="margin-top: 1rem;">
+                    ℹ️ <strong>Tip:</strong> Gather all documents and medications before arrival.
+                </div>
+            `;
+            container.appendChild(div);
+        }
+
+        function renderPersonalInfo(container) {
+            const div = document.createElement('div');
+            div.innerHTML = `
+                <div class="form-group">
+                    <label class="form-label">Full Name *</label>
+                    <input type="text" id="fullName" value="${formData.fullName}" placeholder="John Doe" onchange="updateFormData()">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Age *</label>
+                    <input type="number" id="age" value="${formData.age}" placeholder="45" onchange="updateFormData()">
+                </div>
+                <div class="form-group">
+                    <label style="display: flex; align-items: center; gap: 0.5rem; cursor: pointer;">
+                        <input type="checkbox" id="emergency" ${formData.emergency ? 'checked' : ''} onchange="updateFormData()">
+                        <span style="font-size: 0.875rem;">Yes, I have provided emergency contact</span>
+                    </label>
+                </div>
+            `;
+            container.appendChild(div);
+        }
+
+        function renderMedicalHistory(container) {
+            const div = document.createElement('div');
+            div.innerHTML = `
+                <div class="form-group">
+                    <label class="form-label">Primary Condition/Reason for Admission *</label>
+                    <select id="condition" onchange="updateFormData()">
+                        <option value="">Select condition...</option>
+                        <option value="surgery" ${formData.condition === 'surgery' ? 'selected' : ''}>Planned Surgery</option>
+                        <option value="cardiac" ${formData.condition === 'cardiac' ? 'selected' : ''}>Cardiac Care</option>
+                        <option value="respiratory" ${formData.condition === 'respiratory' ? 'selected' : ''}>Respiratory Issues</option>
+                        <option value="orthopedic" ${formData.condition === 'orthopedic' ? 'selected' : ''}>Orthopedic Surgery</option>
+                        <option value="other" ${formData.condition === 'other' ? 'selected' : ''}>Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Current Medications *</label>
+                    <textarea id="medications" rows="4" placeholder="E.g., Aspirin 100mg daily, Metformin 500mg..." onchange="updateFormData()">${formData.medications}</textarea>
+                </div>
+                <div class="alert alert-warning">
+                    ⚠️ <strong>Important:</strong> Provide an accurate list of all medications, including supplements and OTC drugs.
+                </div>
+            `;
+            container.appendChild(div);
+        }
+
+        function renderDocuments(container) {
+            const div = document.createElement('div');
+            div.innerHTML = `
+                <div class="alert alert-success" style="margin-bottom: 1rem;">
+                    ✓ All documents verified
+                </div>
+                <div class="checklist">
+                    <div class="checklist-item">
+                        <input type="checkbox" id="documents" ${formData.documents ? 'checked' : ''} onchange="updateFormData()">
+                        <div class="checklist-content">
+                            <div class="checklist-text">ID & Medical Records Submitted</div>
+                        </div>
+                    </div>
+                    <div class="checklist-item">
+                        <input type="checkbox" id="insurance" ${formData.insurance ? 'checked' : ''} onchange="updateFormData()">
+                        <div class="checklist-content">
+                            <div class="checklist-text">Insurance & Authorization Verified</div>
+                        </div>
+                    </div>
+                </div>
+                ${formData.documents && formData.insurance ? `
+                    <div class="alert alert-success" style="margin-top: 1rem;">
+                        ✓ <strong>All clear!</strong> You're ready to proceed to admission.
+                    </div>
+                ` : ''}
+            `;
+            container.appendChild(div);
+        }
+
+        function renderCompletion(container) {
+            const div = document.createElement('div');
+            div.innerHTML = `
+                <div class="completion-box">
+                    <div class="completion-icon">✓</div>
+                    <div class="completion-title">Admission Ready!</div>
+                    <div class="completion-subtitle">${formData.fullName || 'Patient'}, your admission process is complete.</div>
+                    <div class="completion-details">
+                        <div class="completion-detail">
+                            <span class="completion-detail-label">Readiness Score:</span>
+                            <span class="completion-detail-value" style="font-size: 1.5rem;">100%</span>
+                        </div>
+                        <div class="completion-detail">
+                            <span class="completion-detail-label">Status:</span>
+                            <span class="completion-detail-value">Ready for Admission</span>
+                        </div>
+                        <div class="completion-detail">
+                            <span class="completion-detail-label">Next Step:</span>
+                            <span class="completion-detail-value">Proceed to Registration</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="alert alert-info" style="margin-top: 1rem;">
+                    📋 <strong>Reminder:</strong> Arrive 15-30 minutes early with all original documents.
+                </div>
+            `;
+            container.appendChild(div);
+        }
+
+        function updateFormData() {
+            formData.fullName = document.getElementById('fullName')?.value || '';
+            formData.age = document.getElementById('age')?.value || '';
+            formData.condition = document.getElementById('condition')?.value || '';
+            formData.medications = document.getElementById('medications')?.value || '';
+            formData.documents = document.getElementById('documents')?.checked || false;
+            formData.insurance = document.getElementById('insurance')?.checked || false;
+            formData.emergency = document.getElementById('emergency')?.checked || false;
+        }
+
+        function nextStage() {
+            if (currentStage < stages.length - 1) {
+                if (!completedStages.includes(currentStage)) {
+                    completedStages.push(currentStage);
+                }
+                currentStage++;
+                updateStageDisplay();
+            }
+        }
+
+        function previousStage() {
+            if (currentStage > 0) {
+                currentStage--;
+                updateStageDisplay();
+            }
+        }
+
+        function setStage(stage) {
+            if (stage < currentStage) {
+                currentStage = stage;
+                updateStageDisplay();
+            }
+        }
+
+        // Initialize
+        updateStageDisplay();
+    </script>
+</body>
+</html>
