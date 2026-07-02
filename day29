@@ -1,0 +1,50 @@
+# Day 29 – Operation Lifeline: Supply Chain Crisis Lab
+
+## Overview
+
+Today I built an interactive enterprise business simulation called **Operation Lifeline: Supply Chain Crisis Lab** using Claude AI.
+
+The simulator allows users to experience how enterprise leaders manage real-world supply chain disruptions through strategic decision-making.
+
+---
+
+## Features
+
+- Welcome dashboard
+- Random company generation
+- Dynamic supply chain crisis scenarios
+- War Room decision engine
+- Supplier negotiation simulator
+- CEO leadership assessment
+- AI investment strategy selection
+- Executive analytics dashboard
+- Replay with randomized scenarios
+- Responsive enterprise UI
+
+---
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- React (CDN)
+- Babel JSX
+
+---
+
+## Key Learnings
+
+- Enterprise supply chain management
+- Crisis response planning
+- Business trade-off analysis
+- Supplier relationship management
+- Leadership decision making
+- AI applications in operations
+- Interactive React application development
+
+---
+
+## Outcome
+
+Successfully completed the simulation and explored multiple crisis scenarios while understanding how operational decisions impact cost, customer satisfaction, inventory, and business resilience.
