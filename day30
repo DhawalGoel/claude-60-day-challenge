@@ -1,0 +1,35 @@
+# Day 30 – Supply Chain Optimizer
+
+## Project Overview
+Built an interactive Supply Chain Optimizer using Claude and React that helps users understand supply chain management through an enterprise-style simulation.
+
+## Features
+- Random company generation
+- Supplier strategy selection
+- Factory location planning
+- Warehouse optimization
+- Transportation selection
+- Inventory strategy
+- Live business metrics
+- Supply Chain Score Dashboard
+- Replay functionality
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- React (CDN)
+- Babel JSX
+
+## Key Learnings
+- Supply chain optimization principles
+- Cost vs speed trade-offs
+- Risk management
+- Inventory planning
+- Transportation strategies
+- Warehouse optimization
+- Enterprise dashboard design
+- React component architecture
+
+## Outcome
+Successfully created a fully interactive offline Supply Chain Optimizer that simulates real-world logistics and operations decisions while providing live business insights.
