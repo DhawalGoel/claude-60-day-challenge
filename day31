@@ -1,0 +1,93 @@
+# Day 31 – AI Supply Chain Control Tower
+
+## 📌 Project Overview
+
+The **AI Supply Chain Control Tower** is an interactive web application that simulates the responsibilities of a Head of Operations managing a global supply chain. The application presents real-time operational disruptions, requiring users to prioritize incidents, make strategic decisions, and maintain business performance under pressure.
+
+Built entirely using **HTML, CSS, and Vanilla JavaScript**, the project runs completely offline inside a single HTML file.
+
+---
+
+## 🎯 Objectives
+
+* Understand Supply Chain Control Tower operations.
+* Practice operational decision-making under time constraints.
+* Learn how business KPIs are affected by supply chain disruptions.
+* Experience enterprise dashboard design and simulation.
+
+---
+
+## 🚀 Features
+
+* Live operational alert simulation.
+* Dynamic KPI dashboard.
+* Multiple alert priorities (Critical, High, Medium, Low).
+* Decision-based gameplay with different outcomes.
+* Real-time score tracking.
+* Countdown timer.
+* Event activity log.
+* Performance grading system.
+* Responsive dashboard layout.
+* Pause functionality.
+* Help & Instructions modal.
+* Replay simulation option.
+* Modern dark-themed enterprise UI.
+
+---
+
+## 📊 KPIs Monitored
+
+* Service Level
+* Customer Satisfaction
+* Inventory Health
+* Transportation Efficiency
+* Operating Cost
+* Revenue Protected
+* Overall Score
+* Remaining Time
+
+---
+
+## ⚙️ Technologies Used
+
+* HTML5
+* CSS3
+* Vanilla JavaScript
+
+---
+
+## 📁 Project Structure
+
+```
+Day31/
+│── index.html
+│── screenshots/
+│── day31.md
+```
+
+---
+
+## 💡 Key Learnings
+
+* Learned how enterprise Supply Chain Control Towers operate.
+* Improved understanding of logistics and operational workflows.
+* Explored KPI-driven business decision making.
+* Practiced building responsive dashboard interfaces.
+* Strengthened JavaScript skills through interactive simulations.
+
+---
+
+## 📸 Screenshots
+
+(Add your screenshots here)
+
+* Dashboard
+* Active Alerts
+* KPI Monitoring
+* Final Performance Summary
+
+---
+
+## ✅ Outcome
+
+Successfully completed the AI Supply Chain Control Tower simulation by managing operational disruptions, improving business KPIs, and achieving an optimized operational performance score while gaining practical insight into enterprise supply chain management.
