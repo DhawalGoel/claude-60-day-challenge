@@ -1,0 +1,122 @@
+# 🛡️ Day 33 – Media Integrity Analyzer
+
+> Learn to evaluate information before believing it.
+
+## 📌 Overview
+
+The **Media Integrity Analyzer** is an interactive web application designed to improve media literacy through hands-on learning. Instead of simply teaching theory, the application allows users to analyze fictional news headlines and social media content, identify misleading language, detect emotional manipulation, and build practical critical-thinking skills.
+
+The project is fully offline and built as a **single HTML file** using only HTML, CSS, and JavaScript.
+
+---
+
+## 🚀 Features
+
+### 📰 Headline Detective
+- Analyze fictional news headlines
+- Identify exaggerated or misleading claims
+- View Headline Accuracy Score
+- Compare original and rewritten headlines
+- Learn why certain headlines are misleading
+
+### 🎭 Emotion Detector
+- Analyze fictional social media posts
+- Detect emotional manipulation techniques
+- Highlight emotionally charged words
+- Discover the intended audience
+- View neutral rewrites
+
+### 📊 Live Media Integrity Metrics
+- Headline Accuracy
+- Source Reliability
+- Emotional Manipulation
+- Audience Targeting
+
+### 📈 Media Integrity Dashboard
+- Overall Media Integrity Score
+- Biggest Red Flag
+- Key Learning Summary
+- Three practical media literacy habits
+- Replay with new randomized scenarios
+
+### 🎨 Modern UI
+- Premium editorial dark theme
+- Multiple color themes (including Claude Orange)
+- Responsive layout
+- Smooth animations
+- Interactive progress indicators
+
+---
+
+## 💡 What I Learned
+
+- How clickbait headlines influence readers.
+- Why emotional language affects decision-making.
+- The importance of verifying sources before sharing information.
+- Techniques used in persuasive media content.
+- How interactive learning improves media literacy.
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Fully Offline (No APIs)
+- Single HTML File
+
+---
+
+## 📂 Project Structure
+
+```
+Day33/
+│── media-integrity-analyzer.html
+│── day33.md
+│── screenshots/
+│    ├── dashboard.png
+│    ├── headline-detective.png
+│    ├── emotion-detector.png
+│    └── final-dashboard.png
+```
+
+---
+
+## ▶️ How to Run
+
+1. Clone this repository.
+2. Open the **media-integrity-analyzer.html** file in any modern browser.
+3. Choose your preferred theme.
+4. Complete both interactive challenges.
+5. Review your Media Integrity Dashboard.
+6. Replay with new randomized scenarios.
+
+---
+
+## 🎯 Key Takeaways
+
+✔ Think before believing.
+
+✔ Verify before sharing.
+
+✔ Recognize emotional manipulation.
+
+✔ Read beyond the headline.
+
+✔ Build better digital literacy.
+
+---
+
+
+## 🌟 Challenge
+
+**ABTalks 60-Day Coding Challenge**
+
+**Day 33 – Media Literacy with Claude**
+
+Building projects that combine technology with critical thinking and digital literacy.
+
+---
+
+⭐ If you enjoyed this project, feel free to star the repository!
