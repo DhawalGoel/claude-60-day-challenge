@@ -1,0 +1,80 @@
+# 🕵️ Marketing Detective
+
+## Day 34 – Marketing Analytics with Claude
+
+### Overview
+
+Marketing Detective is an interactive detective-style learning application that transforms marketing analytics into an engaging investigation game. Instead of simply viewing campaign reports, users analyze evidence, organize clues, identify marketing mistakes, and discover the reasoning behind successful and unsuccessful campaigns.
+
+The project was built as part of the **ABTalks 60-Day AI Challenge** using Claude.
+
+---
+
+## Features
+
+* 🕵️ Detective-themed investigation experience
+* 📂 Multiple randomized marketing cases
+* 📌 Interactive evidence board
+* 🎯 Campaign performance analysis
+* 📊 Marketing metrics visualization
+* 💬 Customer feedback analysis
+* 📈 Social media performance review
+* 🧩 Drag-and-drop evidence organization
+* ✅ Marketing mistake identification
+* 📖 Detailed learning report after each case
+* 🎨 Multiple UI color themes
+* 📱 Fully responsive single-page application
+
+---
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+* React (CDN)
+* Babel
+
+---
+
+## Marketing Concepts Covered
+
+* Campaign Analysis
+* Customer Insights
+* Budget Allocation
+* Conversion Funnel
+* CTR Analysis
+* Engagement Metrics
+* Marketing Strategy
+* Social Media Performance
+* Evidence-Based Decision Making
+* Marketing Optimization
+
+---
+
+## Key Learnings
+
+* Understanding campaign KPIs
+* Investigating marketing failures through data
+* Identifying audience targeting issues
+* Evaluating channel performance
+* Learning evidence-based marketing decisions
+* Improving campaign optimization strategies
+* Building interactive educational web applications using AI
+
+---
+
+## Project Structure
+
+```
+Day34/
+│── index.html
+│── screenshots/
+│── day34.md
+```
+
+---
+
+## Outcome
+
+This project demonstrates how AI can be used to build immersive educational experiences that make complex marketing concepts engaging, interactive, and practical through gamified investigations.
