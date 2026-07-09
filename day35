@@ -1,0 +1,174 @@
+# 🧠 Cognitive Pattern Explorer
+
+> A psychology-inspired interactive web application that helps users explore their natural thinking patterns through engaging scenarios, prioritization exercises, and reflection—all in a single offline HTML file.
+
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge\&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge\&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-yellow?style=for-the-badge\&logo=javascript)
+![Offline](https://img.shields.io/badge/Works-Offline-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+---
+
+## 📖 Overview
+
+**Cognitive Pattern Explorer** is an educational, psychology-inspired self-reflection web application that allows users to understand their thinking tendencies through interactive decision-making activities.
+
+Instead of acting like a personality test, the application encourages thoughtful exploration using engaging scenarios, drag-and-drop exercises, and personalized reflections.
+
+> **Educational Purpose Only**
+>
+> This application does **not** diagnose or clinically assess mental health. All results are reflective and intended for learning and self-awareness.
+
+---
+
+## ✨ Features
+
+* 🧠 Discover your thinking style through interactive scenarios
+* 🎯 Prioritize values with drag-and-drop cards
+* 🗺️ Map your decision-making process using an interactive timeline
+* 📊 Personalized thinking pattern percentage breakdown
+* 📈 Progress tracking across multiple chapters
+* 🎨 Calm and modern UI
+* 🌙 Calm & Stress Mode selection
+* 📱 Fully responsive design
+* ♿ Keyboard accessibility support
+* 🎞️ Reduced motion support
+* 💾 Works completely offline
+* 📄 Entire project contained in a single HTML file
+
+---
+
+## 🛠️ Built With
+
+* HTML5
+* CSS3
+* Vanilla JavaScript
+* Native Drag & Drop API
+
+No frameworks or external libraries were used.
+
+---
+
+## 🎮 User Journey
+
+### 1️⃣ Welcome Screen
+
+* Calm Mode / Stress Mode selection
+* Introduction to the experience
+
+### 2️⃣ Discover Your Thinking Style
+
+Users answer interactive scenarios that contribute to different thinking tendencies.
+
+### 3️⃣ Priorities Challenge
+
+Arrange values using drag-and-drop cards to reflect personal priorities.
+
+### 4️⃣ Thinking Timeline
+
+Organize decision-making steps in the order that best represents your natural thinking process.
+
+### 5️⃣ Final Reflection
+
+Receive:
+
+* Personalized insights
+* Thinking tendency percentages
+* Reflection summary
+* Option to restart the experience
+
+---
+
+## 🧩 Thinking Tendencies
+
+The application explores five educational thinking styles:
+
+* 🔍 Analytical Thinker
+* ❤️ Emotional Intuitive
+* 🔄 Overthinking Loop Style
+* ⚡ Action-First Decision Maker
+* ⚖️ Balanced Reflective Thinker
+
+---
+
+## 📂 Project Structure
+
+```text
+Cognitive-Pattern-Explorer/
+│
+├── index.html
+├── README.md
+└── screenshot.png
+```
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository.
+
+```bash
+git clone https://github.com/yourusername/Cognitive-Pattern-Explorer.git
+```
+
+2. Open the project folder.
+
+3. Double-click **index.html** or open it in your preferred browser.
+
+No installation or internet connection is required.
+
+---
+
+## 📸 Preview
+
+> Add your project screenshot here after completing the application.
+
+```
+/screenshot.png
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project demonstrates:
+
+* Frontend development fundamentals
+* Interactive UI design
+* State management using Vanilla JavaScript
+* Drag-and-drop implementation
+* Responsive web design
+* Accessibility best practices
+* Offline-first application development
+* Educational experience design
+
+---
+
+## 💡 Future Enhancements
+
+* Export reflection as PDF
+* Save user progress locally
+* Dark and light themes
+* Additional thinking scenarios
+* Animated data visualizations
+* Reflection history
+* Custom user journals
+
+---
+
+## 🙌 Acknowledgements
+
+Created as part of the **ABTalks 60-Day Coding Challenge – Day 36**.
+
+Special thanks to **ABTalks** for designing practical, project-based AI learning experiences.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+### ⭐ If you found this project interesting, consider giving it a Star!
