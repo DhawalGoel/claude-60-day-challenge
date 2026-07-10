@@ -1,0 +1,166 @@
+# 🧭 Task Compass
+
+> Learn how work flows through real organizations through an interactive management simulation.
+
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-yellow)
+![Status](https://img.shields.io/badge/Offline-Ready-success)
+
+## 📖 Overview
+
+Task Compass is a browser-based learning experience that helps users understand how work flows inside organizations. Instead of testing job titles, it focuses on ownership, delegation, collaboration, escalation, and workflow thinking through an engaging simulation.
+
+Built as a single-file HTML application, it works completely offline without any external libraries or APIs.
+
+---
+
+## ✨ Features
+
+- 🎯 Three interactive gameplay stages
+- 🧩 Drag-and-drop task management
+- 👥 Role ownership simulation
+- 🔄 Task routing workflows
+- 🤝 Collaboration challenges
+- 📊 Understanding dashboard with progress chart
+- 🌙 Premium dark mode UI
+- 💎 Glassmorphism design
+- 📱 Fully responsive layout
+- ⚡ Offline support
+
+---
+
+## 🎮 Gameplay
+
+### Stage 1 — Who Owns This?
+
+Assign the correct primary owner for realistic workplace tasks.
+
+Examples include:
+
+- Payment issues
+- UI bugs
+- Customer requests
+- Feature planning
+- Infrastructure incidents
+
+After every decision you'll learn:
+
+- Primary owner
+- Why they own it
+- Supporting roles
+
+---
+
+### Stage 2 — Task Routing
+
+Build realistic workflows by arranging teams in the proper order.
+
+Example:
+
+Customer Support
+
+↓
+
+QA Engineer
+
+↓
+
+Backend Developer
+
+↓
+
+Product Manager
+
+↓
+
+Customer
+
+The application explains why work moves through each role.
+
+---
+
+### Stage 3 — Collaboration Challenge
+
+Large organizational situations require teamwork.
+
+Examples:
+
+- Customer satisfaction drops
+- Feature delays
+- Sudden sales growth
+- Negative online reviews
+
+Assign multiple departments and explore how collaboration solves complex problems.
+
+---
+
+## 📊 Learning Outcomes
+
+The application evaluates understanding across four dimensions:
+
+- Ownership
+- Delegation
+- Collaboration
+- Workflow Thinking
+
+A visual dashboard summarizes learning instead of assigning traditional scores.
+
+---
+
+## 🛠 Tech Stack
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+No frameworks, APIs, or external libraries.
+
+---
+
+## 📂 Project Structure
+
+```
+task-compass/
+│
+├── index.html
+└── README.md
+```
+
+---
+
+## 🚀 Running the Project
+
+1. Download the repository.
+2. Open `index.html` in any modern browser.
+3. Start exploring workplace workflows.
+
+No installation required.
+
+---
+
+## 🎯 Skills Practiced
+
+- Organizational thinking
+- Workflow design
+- Delegation strategies
+- Cross-functional collaboration
+- UI/UX design
+- Drag-and-drop interactions
+- JavaScript state management
+
+---
+
+## 📸 Preview
+
+A modern dark-themed organizational simulation with animated role cards, workflow builders, progress tracking, and interactive collaboration scenarios.
+
+---
+
+## 📄 License
+
+This project was built for the **ABTalks 60-Day AI Challenge** and is intended for educational purposes.
+
+---
+
+⭐ If you found this project interesting, consider giving it a star!
