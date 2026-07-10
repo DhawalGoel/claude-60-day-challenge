@@ -1,0 +1,176 @@
+# ⌨️ Typing Speed Studio
+
+A premium commercial-style typing practice platform built using **HTML, CSS, and JavaScript**.
+
+Created as **Day 38** of the **ABTalks 60-Day AI Coding Challenge**.
+
+---
+
+## 🚀 Overview
+
+Typing Speed Studio is an advanced browser-based typing application inspired by premium platforms like Monkeytype. It provides multiple typing modes, real-time analytics, adaptive practice sessions, and an elegant modern UI—all within a single self-contained HTML file.
+
+The application is designed to help users improve typing speed, accuracy, consistency, and overall keyboard proficiency through interactive learning and detailed performance tracking.
+
+---
+
+## ✨ Features
+
+### 🎯 Multiple Typing Modes
+
+* Time Mode (15s, 30s, 60s, 120s)
+* Word Count Mode
+* Quote Mode
+* Programming Mode
+* Custom Text Mode
+* Adaptive Mode
+* Focus Mode
+* Zen Mode
+
+---
+
+### 💻 Programming Practice
+
+Supports realistic code snippets including:
+
+* HTML
+* CSS
+* JavaScript
+* Python
+* Java
+* C++
+* SQL
+
+---
+
+### 📊 Live Performance Metrics
+
+* Words Per Minute (WPM)
+* Raw WPM
+* Characters Per Minute
+* Accuracy
+* Mistake Count
+* Current Streak
+* Completion Percentage
+* Remaining Time
+* Progress Indicator
+
+---
+
+### 📈 Advanced Analytics Dashboard
+
+After every session:
+
+* WPM Graph
+* Accuracy Graph
+* Consistency Score
+* Typing Rhythm
+* Error Heatmap
+* Character Statistics
+* Achievement Badges
+* Personal Best Tracking
+* Percentile Estimate
+* Performance Summary
+* Improvement Suggestions
+
+---
+
+### 💾 Local Progress Tracking
+
+* Session History
+* Personal Bests
+* Daily Streak
+* Previous Attempts
+* Improvement Timeline
+
+No account required.
+
+---
+
+### 🎨 Premium User Experience
+
+* Beautiful modern interface
+* Dark Mode
+* Theme Customization
+* Responsive Layout
+* Smooth Animations
+* Keyboard Shortcuts
+* Pause & Resume
+* Restart Session
+* Accessibility Features
+* Adjustable Font Size
+* Optional Typing Sounds
+
+---
+
+## 🛠 Technologies Used
+
+* HTML5
+* CSS3
+* Vanilla JavaScript
+
+No external libraries or frameworks were used.
+
+---
+
+## 📁 Project Structure
+
+```
+typing-speed-studio/
+│
+├── index.html
+├── README.md
+└── screenshots/
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project demonstrates:
+
+* JavaScript DOM Manipulation
+* Typing Speed Algorithms
+* Performance Calculations
+* Local Storage
+* Interactive UI Design
+* Responsive Web Development
+* Data Visualization
+* User Experience Design
+
+---
+
+## 📸 Preview
+
+A premium typing platform with:
+
+* Live typing area
+* Dynamic practice passages
+* Real-time statistics
+* Interactive analytics dashboard
+* Performance graphs
+* Session history
+* Modern commercial UI
+
+---
+
+## 🚀 Future Improvements
+
+* Multiplayer races
+* Online leaderboards
+* User authentication
+* AI-powered coaching
+* Cloud synchronization
+* Keyboard layout support
+* Mobile optimization
+* Additional typing games
+
+---
+
+## 🙌 Acknowledgements
+
+Built as part of the **ABTalks 60-Day AI Coding Challenge** to explore interactive educational applications using modern frontend development.
+
+---
+
+⭐ If you found this project interesting, consider giving it a star!
