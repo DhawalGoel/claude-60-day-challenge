@@ -1,0 +1,50 @@
+📄 PDF Splitter & Merger Pro
+
+A premium browser-based PDF utility that allows users to split, merge, preview, and organize PDF documents entirely on the client side. No files are uploaded to any server, ensuring complete privacy and fast performance.
+
+✨ Features
+📑 PDF Splitter
+Upload PDF documents
+Automatic page detection
+Visual page thumbnails
+Document preview
+Split by:
+Page numbers
+Custom page ranges
+Every N pages
+Split after specific pages
+Extract selected pages
+Multiple split operations in one go
+Live validation for page ranges
+Output preview before processing
+📚 PDF Merger
+Upload multiple PDFs
+Drag & Drop support
+Sort PDFs before merging
+File previews
+Page count display
+Total document statistics
+Merge into a single PDF
+Instant download
+🎨 UI Features
+Premium modern interface
+Fully responsive
+Dark & Light mode
+Beautiful animations
+Keyboard shortcuts
+Accessibility support
+Drag & Drop interactions
+Loading indicators
+Smooth micro-interactions
+Professional typography
+🔒 Privacy First
+
+All PDF processing happens entirely inside your browser.
+
+✔ No uploads
+
+✔ No servers
+
+✔ No tracking
+
+✔ Works offline after initial load
