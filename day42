@@ -1,0 +1,92 @@
+# 💰 Personal Financial Command Center
+
+An AI-powered financial dashboard built as part of the **ABTalks 60-Day Coding Challenge – Day 42**.
+
+## 📌 Overview
+
+Personal Financial Command Center is a premium single-page web application that helps users understand, organize, and improve their financial health through interactive visualizations and AI-inspired insights.
+
+Instead of being just an expense tracker, it acts as a complete financial management platform with budgeting, savings, investments, cash flow analysis, goal tracking, and financial health scoring.
+
+---
+
+## ✨ Features
+
+- 📊 Interactive Financial Dashboard
+- 💵 Income & Expense Management
+- 📅 Monthly Budget Planner
+- 💰 Savings Goal Tracker
+- 📈 Investment Portfolio Overview
+- 💳 Debt & Loan Monitoring
+- 🔄 Cash Flow Analysis
+- 📦 Subscription Tracker
+- 🎯 Financial Goal Planner
+- ❤️ Financial Health Score
+- 🤖 AI Financial Recommendations
+- 🔮 What-if Financial Simulations
+- 📉 Charts & Data Visualizations
+- 🖨 Printable Financial Reports
+- 🌙 Dark Mode
+- 💾 Local Storage Support
+- 📱 Fully Responsive Design
+
+---
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+No external frameworks or libraries used.
+
+---
+
+## 🎯 Learning Outcomes
+
+This project demonstrates:
+
+- Financial dashboard UI design
+- Interactive JavaScript applications
+- Data visualization
+- Personal finance concepts
+- Local storage implementation
+- Responsive frontend development
+- AI-assisted financial insights
+
+---
+
+## 🚀 Future Improvements
+
+- Bank account integration
+- AI budgeting assistant
+- Investment forecasting
+- PDF report generation
+- Multi-user profiles
+- Cloud synchronization
+- Expense categorization using AI
+
+---
+
+## 📸 Preview
+
+A modern financial dashboard featuring:
+
+- Executive summary cards
+- Expense analytics
+- Savings progress
+- Investment allocation
+- Budget planner
+- Financial health score
+- Goal tracking
+- AI recommendations
+
+---
+
+## 📄 License
+
+This project is developed for educational purposes under the ABTalks AI Coding Challenge.
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
