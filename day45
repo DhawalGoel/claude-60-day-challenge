@@ -1,0 +1,347 @@
+# 🧠 AI Decision Strategist
+
+> **Think Better. Decide Smarter.**
+
+An AI-powered decision intelligence tool designed to help users make clearer, more structured, and more rational decisions. Instead of simply telling users what they want to hear, the AI Decision Strategist acts as an **impartial decision coach** that challenges assumptions, identifies cognitive biases, compares alternatives, and delivers a decisive recommendation.
+
+This project was built as part of the **ABTalks 60-Day Coding Challenge – Day 45: AI Decision Intelligence**.
+
+---
+
+## 🚀 Project Overview
+
+Making difficult decisions can be challenging when emotions, uncertainty, fear of failure, and cognitive biases influence our thinking.
+
+The **AI Decision Strategist** provides a structured four-question decision interview and transforms the user's responses into a comprehensive interactive **Decision Report**.
+
+The report evaluates the decision from multiple perspectives, including:
+
+* Real decision analysis
+* Option-by-option evaluation
+* Assumption and bias analysis
+* Decision matrix scoring
+* Premortem analysis
+* 7-day decision testing plan
+* Final AI-powered verdict
+* Shareable decision summary cards
+
+The goal is to help users **think clearly, evaluate trade-offs, and make more informed decisions**.
+
+---
+
+## ✨ Key Features
+
+### 🎯 1. The Real Decision
+
+Identifies:
+
+* The actual decision
+* The core trade-off
+* Why the decision is emotionally difficult
+
+### ⚖️ 2. Case for Each Option
+
+Each option is analyzed through:
+
+* Strongest case for the option
+* Hidden upside
+* Biggest weakness
+* What values the option best supports
+
+### 🧠 3. Assumption Buster
+
+The AI identifies:
+
+* Three assumptions the user may be making
+* Two potential cognitive biases
+* One important factor the user may be ignoring
+
+Examples of biases include:
+
+* Sunk Cost Bias
+* Loss Aversion
+* Status Quo Bias
+* Confirmation Bias
+
+### 📊 4. Decision Matrix
+
+Each option is scored out of 10 across seven dimensions:
+
+1. Life/Career Upside
+2. Financial Safety
+3. Growth & Learning
+4. Stress Level
+5. Reversibility
+6. Long-Term Alignment
+7. Regret Risk
+
+The final score is calculated out of **70**.
+
+Animated visual bars make the comparison easy to understand, while the highest-scoring option is highlighted.
+
+### 🔍 5. Premortem Analysis
+
+For the top two options, the AI imagines that the decision failed after 12 months and identifies:
+
+* Three possible reasons for failure
+* One early warning sign
+* One prevention action
+
+This helps users anticipate risks before making a decision.
+
+### 📅 6. 7-Day Test Plan
+
+The tool creates a practical seven-day framework:
+
+* **Day 1–2:** Research
+* **Day 3–4:** Small experiment
+* **Day 5–6:** Important conversation
+* **Day 7:** Decision criteria
+
+This encourages users to validate their assumptions before committing.
+
+### 🏆 7. The Verdict
+
+The AI provides a decisive recommendation containing:
+
+* Best option
+* Reason it wins
+* What could change the decision
+* One hard truth the user needs to hear
+
+### 📱 8. Shareable Decision Cards
+
+The final report includes three screenshot-friendly cards:
+
+* Decision Matrix Summary
+* Final Verdict
+* LinkedIn Share Card
+
+---
+
+## 🎨 UI & Design
+
+The application uses a modern dark-themed decision intelligence dashboard.
+
+### Design Highlights
+
+* Dark professional interface
+* Single-column card-based layout
+* Responsive design
+* Animated decision matrix
+* Interactive hover effects
+* Color-coded analysis sections
+* Highlighted winning option
+* Screenshot-ready shareable cards
+* Mobile-friendly responsive layout
+
+### Color System
+
+* 🔵 Blue – Neutral analysis
+* 🟢 Green – Strengths and positive outcomes
+* 🔴 Red – Risks and weaknesses
+* 🟡 Gold – Verdict and winning option
+* 🟣 Purple – Assumptions and cognitive biases
+
+---
+
+## 🛠️ Technology Stack
+
+* **HTML5** – Application structure
+* **CSS3** – Styling, responsive layout, animations
+* **JavaScript** – Interactions and dynamic decision analysis
+* **Google Fonts** – Inter typography
+* **Claude AI** – AI-powered decision strategy and report generation
+
+---
+
+## 🔄 How It Works
+
+```text
+User Faces a Difficult Decision
+              ↓
+     4-Question AI Interview
+              ↓
+      Collect User Context
+              ↓
+    Analyze Options & Trade-offs
+              ↓
+      Identify Assumptions
+              ↓
+     Detect Cognitive Biases
+              ↓
+       Build Decision Matrix
+              ↓
+       Perform Premortem
+              ↓
+      Create 7-Day Test Plan
+              ↓
+       Generate Final Verdict
+              ↓
+     Interactive Decision Report
+```
+
+---
+
+## 📋 Decision Interview
+
+The AI asks exactly four questions:
+
+### Question 1
+
+What's the decision you're stuck on? Tell me the options and why it's hard right now.
+
+### Question 2
+
+What's your goal — and what's the timeline for this decision?
+
+### Question 3
+
+What does your gut say is the right choice — and what's stopping you from just going with it?
+
+### Question 4
+
+What's the ONE thing you're most scared of getting wrong — and can you undo this decision if it doesn't work out?
+
+The AI collects the information before generating the final report.
+
+---
+
+## 📊 Decision Matrix Framework
+
+| Dimension           | Score   |
+| ------------------- | ------- |
+| Life/Career Upside  | /10     |
+| Financial Safety    | /10     |
+| Growth & Learning   | /10     |
+| Stress Level        | /10     |
+| Reversibility       | /10     |
+| Long-Term Alignment | /10     |
+| Regret Risk         | /10     |
+| **Total**           | **/70** |
+
+The matrix provides a structured way to compare options instead of relying entirely on emotions or intuition.
+
+---
+
+## 💡 Why This Project?
+
+Many decisions are difficult not because we lack information, but because we struggle to organize our thinking.
+
+This project explores how AI can support **decision intelligence** by helping users:
+
+* Structure complex decisions
+* Challenge their assumptions
+* Recognize cognitive biases
+* Compare options objectively
+* Think about future consequences
+* Test decisions before committing
+* Make clearer and more confident choices
+
+The AI does not simply provide an answer. It helps users understand **why** a decision may be better.
+
+---
+
+## 🎯 Use Cases
+
+The AI Decision Strategist can help users think through:
+
+* Career decisions
+* Education choices
+* Job offers
+* Startup ideas
+* Business decisions
+* Project selection
+* Personal growth decisions
+* Major life choices
+
+---
+
+## 📁 Project Structure
+
+```text
+AI-Decision-Strategist/
+│
+├── index.html
+└── README.md
+```
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+2. Open the project folder.
+
+3. Open `index.html` in your browser.
+
+4. Start the AI decision interview.
+
+5. Answer the four questions.
+
+6. Review your generated Decision Report.
+
+> Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
+
+---
+
+## 🌟 Learning Outcomes
+
+Through this project, I explored:
+
+* AI-powered decision intelligence
+* Structured decision-making frameworks
+* Cognitive bias identification
+* Decision matrix methodology
+* Premortem analysis
+* Risk evaluation
+* Interactive dashboard design
+* Responsive UI development
+* AI-assisted product development
+
+---
+
+## 🚀 Future Enhancements
+
+Potential future improvements include:
+
+* User authentication
+* Decision history and tracking
+* PDF report export
+* AI-generated personalized insights
+* Multiple decision templates
+* Decision comparison over time
+* Voice-based decision interviews
+* Advanced analytics dashboard
+* Cloud-based storage
+
+---
+
+## 🏆 Challenge
+
+**ABTalks 60-Day Coding Challenge**
+
+### Day 45 – AI Decision Intelligence
+
+**Project:** AI Decision Strategist
+
+**Theme:** Think Better. Decide Smarter.
+
+---
+
+## 👨‍💻 Author
+
+**Dhawal Goel**
+
+AI & Machine Learning Enthusiast | Developer | Technology Learner
+
+---
+
+## 📜 License
+
+This project is created for educational and learning purposes as part of the ABTalks 60-Day Coding Challenge.
