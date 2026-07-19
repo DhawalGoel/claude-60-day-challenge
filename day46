@@ -1,0 +1,401 @@
+# 🤖 Autonomous Agent Studio
+
+> **ABTalks 60-Day Coding Challenge — Day 46**
+> Build Autonomous Agent Studio: Design Multi-Agent AI Systems with Claude
+
+Autonomous Agent Studio is a single-page web application designed to demonstrate the architecture and workflow of an **autonomous multi-agent AI system**.
+
+The application simulates a complete agentic workflow in which specialized AI agents collaborate to **plan, execute, evaluate, critique, improve, remember, and review** a task until a defined stopping condition is reached.
+
+---
+
+## 🚀 Project Overview
+
+Traditional AI applications often follow a simple:
+
+**User Input → AI Response**
+
+Autonomous Agent Studio demonstrates a more advanced approach:
+
+**User Goal → Planning → Execution → Evaluation → Critique → Improvement → Re-evaluation → Stop Check → Final Review**
+
+The system uses multiple specialized agents, with each agent responsible for a specific part of the workflow.
+
+The core improvement cycle is designed to continue dynamically based on the results of each evaluation rather than relying on a fixed number of iterations.
+
+---
+
+## ✨ Key Features
+
+### 🧠 Multi-Agent Architecture
+
+The system supports specialized agents including:
+
+* **Planner** — Breaks the user's objective into an actionable workflow.
+* **Executor** — Performs the planned task and generates the current draft/output.
+* **Evaluator** — Evaluates the current result against a defined rubric.
+* **Critic** — Identifies weaknesses, gaps, and areas for improvement.
+* **Improver** — Uses evaluation and critique feedback to improve the output.
+* **Memory Manager** — Maintains useful information from previous iterations.
+* **Safety Monitor** — Monitors the workflow for potential safety or reliability issues.
+* **Final Reviewer** — Performs the final assessment after the stopping condition is triggered.
+
+---
+
+## 🔄 Autonomous Improvement Loop
+
+The most important part of the project is its iterative agent loop.
+
+The workflow follows:
+
+```text
+                ┌──────────────┐
+                │    Planner   │
+                └──────┬───────┘
+                       ↓
+                ┌──────────────┐
+                │   Executor   │
+                └──────┬───────┘
+                       ↓
+                ┌──────────────┐
+                │  Evaluator   │
+                └──────┬───────┘
+                       ↓
+                ┌──────────────┐
+                │    Critic    │
+                └──────┬───────┘
+                       ↓
+                ┌──────────────┐
+                │   Improver   │
+                └──────┬───────┘
+                       │
+                       │ Improvement Loop
+                       │
+                       └───────────────┐
+                                       ↓
+                                  Evaluator
+                                       │
+                                       ↓
+                              Stop Condition?
+                               /           \
+                             No             Yes
+                             │               │
+                             └─── Loop       ↓
+                                      ┌───────────────┐
+                                      │ Final Reviewer│
+                                      └───────┬───────┘
+                                              ↓
+                                       Final Summary
+```
+
+The system continuously evaluates the current output and improves it until a stopping condition is reached.
+
+---
+
+## 🛑 Dynamic Stop Conditions
+
+The system checks stopping conditions after every improvement round.
+
+The checks are performed in the following order:
+
+### 1. Plateau Detection
+
+The system checks whether the score has improved by less than a small delta for two consecutive rounds.
+
+If the system is no longer making meaningful progress, the loop stops.
+
+### 2. Target Threshold
+
+If the evaluation score reaches or crosses the target threshold defined during the initial workflow setup, the system stops and moves to the Final Reviewer.
+
+### 3. Hard Iteration Cap
+
+A safety fallback is used to prevent uncontrolled execution if the workflow continues for too long.
+
+The iteration cap is a safety mechanism rather than the intended stopping condition.
+
+The exact stop reason is displayed in the final execution summary.
+
+---
+
+## 📊 Dashboard
+
+The application provides an interactive dashboard that displays:
+
+* Workflow visualization
+* Active agent
+* Live execution status
+* Current round indicator
+* Iteration history
+* Activity logs
+* Intermediate agent outputs
+* Memory updates
+* Evaluation reports
+* Round-over-round improvements
+* Retry count
+* Final summary
+* Exact stopping reason
+* Agent performance summary
+* Execution statistics
+* Architecture overview
+* Extension ideas
+
+The round indicator is intentionally open-ended.
+
+Example:
+
+```text
+Round 3 — Checking stop condition…
+```
+
+Instead of displaying a predetermined sequence such as:
+
+```text
+Round 3 of 5
+```
+
+This reflects the autonomous nature of the workflow.
+
+---
+
+## 🧩 State Management
+
+The system maintains state across the autonomous loop.
+
+Each iteration stores information such as:
+
+```text
+Score
+Critique
+Draft
+Improvement Delta
+```
+
+The running history allows the dashboard to display the complete evolution of the task.
+
+The state flow is:
+
+```text
+Current Draft
+     ↓
+Evaluator
+     ↓
+Evaluation
+     ↓
+Critic
+     ↓
+Critique
+     ↓
+Improver
+     ↓
+Improved Draft
+     ↓
+Next Evaluation
+```
+
+The next evaluation receives the latest draft, while the improvement agent receives the previous evaluation and critique.
+
+This allows the system to maintain context between iterations.
+
+---
+
+## 🏗️ Architecture
+
+```text
+User
+  │
+  ▼
+Interview & Workflow Configuration
+  │
+  ▼
+Planner
+  │
+  ▼
+Executor
+  │
+  ▼
+Evaluator
+  │
+  ▼
+Critic
+  │
+  ▼
+Improver
+  │
+  ▼
+Memory Manager
+  │
+  ▼
+Stop Condition Check
+  │
+  ├── Continue ──→ Evaluator
+  │
+  └── Stop ──────→ Final Reviewer
+                       │
+                       ▼
+                 Final Summary
+```
+
+---
+
+## 🛠️ Technologies Used
+
+* **HTML5**
+* **CSS3**
+* **Vanilla JavaScript**
+* **Claude API / Anthropic Messages API**
+* **Multi-Agent AI Architecture**
+* **Agentic Workflow Design**
+
+No external frontend frameworks or libraries are required.
+
+---
+
+## 📁 Project Structure
+
+The project is intentionally designed as a single self-contained HTML application.
+
+```text
+autonomous-agent-studio/
+│
+├── index.html
+│
+└── README.md
+```
+
+The `index.html` file contains:
+
+* HTML structure
+* CSS styling
+* JavaScript logic
+* Agent orchestration
+* Workflow visualization
+* Dashboard components
+* API integration
+* Error handling
+* Retry logic
+
+---
+
+## ▶️ How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### 2. Open the Project
+
+Navigate to the project folder:
+
+```bash
+cd autonomous-agent-studio
+```
+
+### 3. Run the Application
+
+Because this is a self-contained HTML application, you can open:
+
+```text
+index.html
+```
+
+directly in a modern web browser.
+
+For a better local development experience, you can also use VS Code with a local development server such as Live Server.
+
+---
+
+## 🔐 API Configuration
+
+The application is designed to communicate with the Claude API.
+
+Before using the application with a live API, configure your API authentication securely.
+
+**Important:** Never expose a production API key directly in frontend JavaScript or commit it to a public GitHub repository.
+
+For production deployments, API requests should be routed through a secure backend or server-side proxy.
+
+---
+
+## 🎯 Learning Objectives
+
+This project demonstrates practical concepts in:
+
+* Autonomous AI systems
+* Agentic AI
+* Multi-agent orchestration
+* AI workflow automation
+* Prompt engineering
+* Iterative self-improvement
+* AI evaluation
+* Critique-based refinement
+* Memory management
+* Safety monitoring
+* Dynamic stopping conditions
+* Human-centered AI interfaces
+
+---
+
+## 💡 Future Enhancements
+
+Possible future improvements include:
+
+* Persistent long-term memory
+* Vector database integration
+* RAG-based knowledge retrieval
+* Parallel agent execution
+* Agent-to-agent communication
+* Tool calling
+* Web search integration
+* File and document processing
+* Human approval checkpoints
+* Real-time streaming responses
+* Agent performance analytics
+* Custom agent builder
+* Workflow templates
+* Authentication and user accounts
+* Backend API proxy for secure API key management
+
+---
+
+## 🔮 Advanced Autonomous System Ideas
+
+This project can be extended into more advanced systems such as:
+
+1. **Autonomous Research Agent**
+2. **AI Software Development Team**
+3. **Multi-Agent Business Analyst**
+4. **Autonomous Data Analysis System**
+5. **AI Project Manager**
+6. **Multi-Agent Customer Support System**
+7. **Autonomous Content Creation Pipeline**
+8. **AI Decision Intelligence Platform**
+
+---
+
+## 📈 Project Outcome
+
+Autonomous Agent Studio demonstrates how AI systems can be designed to work as **collaborative teams of specialized agents** instead of relying on a single model response.
+
+The project highlights an important concept in modern AI engineering:
+
+> **The goal is not just to generate an answer, but to build a system that can evaluate, critique, improve, and determine when the result is good enough to stop.**
+
+---
+
+## 👨‍💻 Author
+
+**Dhawal Goel**
+
+AI & Machine Learning Enthusiast
+ABTalks 60-Day Coding Challenge
+
+---
+
+## ⭐ Acknowledgment
+
+This project was created as part of the **ABTalks 60-Day Coding Challenge — Day 46: Autonomous Agent Studio**.
+
+If you found this project interesting, consider giving the repository a ⭐ and exploring the possibilities of autonomous and multi-agent AI systems.
