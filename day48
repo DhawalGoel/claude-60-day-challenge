@@ -1,0 +1,141 @@
+# ⚖️ The Verdict Engine
+
+An AI-powered Decision Intelligence platform that researches, compares, scores, and ranks options using transparent, evidence-based analysis.
+
+---
+
+# 📌 Overview
+
+The Verdict Engine helps users make confident decisions by combining AI-assisted research with verifiable data sources.
+
+Users can compare products, services, career options, universities, technologies, investment opportunities, or any other alternatives using customizable evaluation criteria and weighted scoring.
+
+Instead of relying on opinions, the platform presents research-backed comparisons with transparent citations.
+
+---
+
+# ✨ Features
+
+* Interactive Decision Interview
+* Dynamic Comparison Builder
+* Adjustable Criteria Weights
+* Live Ranking Updates
+* Research-backed Analysis
+* Transparent Citations
+* Source Verification Panel
+* Estimated vs Verified Data Labels
+* Research Methodology Section
+* Decision Confidence Score
+* Comparative Analytics Dashboard
+* Responsive SaaS UI
+* Dark Mode
+* Smooth Animations
+* Loading & Empty States
+* Error Handling
+
+---
+
+# 📊 Decision Workflow
+
+1. User selects what they want to compare.
+2. AI gathers research-backed information.
+3. Multiple evaluation criteria are defined.
+4. Users assign priority weights.
+5. Rankings update instantly.
+6. Supporting citations remain visible.
+7. Final recommendation is generated with reasoning.
+
+---
+
+# 🎯 Comparison Criteria
+
+Examples include:
+
+* Cost
+* Performance
+* Quality
+* Reliability
+* Availability
+* Risk
+* Customer Reviews
+* Security
+* Features
+* Ease of Use
+* Long-term Value
+
+---
+
+# 📚 Transparency
+
+The application emphasizes trustworthy decision-making by:
+
+* Showing all cited sources
+* Explaining research methodology
+* Highlighting conflicting data
+* Marking estimated values separately from verified information
+
+---
+
+# 🛠 Tech Stack
+
+* HTML5
+* CSS3
+* Vanilla JavaScript
+* Responsive Design
+* Modern SaaS UI
+* Glassmorphism Effects
+
+---
+
+# 📱 Responsive Design
+
+Optimized for:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+---
+
+# 🚀 Future Improvements
+
+* AI Chat Assistant
+* PDF Export
+* Saved Comparisons
+* Team Collaboration
+* Historical Decision Tracking
+* Real-time API Integrations
+* Charts & Advanced Visualizations
+* Multi-language Support
+
+---
+
+# 📖 Learning Outcomes
+
+This project improved my understanding of:
+
+* Decision Intelligence Systems
+* Research Workflows
+* AI-assisted Analysis
+* Data Transparency
+* UX/UI Design
+* Frontend Development
+* Interactive Dashboards
+* Evidence-based Decision Making
+
+---
+
+# 📷 Demo
+
+Add screenshots here.
+
+---
+
+# 📜 License
+
+MIT License
+
+---
+
+Built with ❤️ during the **ABTalks 60-Day Coding Challenge**.
