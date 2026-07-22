@@ -1,0 +1,171 @@
+# 🤖 Personal AI Playbook
+
+A premium, interactive AI workflow management system that transforms everyday AI habits into reusable productivity systems.
+
+Built as part of **ABTalks 60-Day Coding Challenge – Day 49**.
+
+---
+
+## 🚀 Overview
+
+Personal AI Playbook helps users organize, build, and optimize their AI workflows instead of collecting hundreds of disconnected prompts.
+
+The application interviews users to understand their work style and automatically generates personalized AI workflow systems.
+
+Everything runs locally inside a single HTML file with no external dependencies.
+
+---
+
+## ✨ Features
+
+### 🎯 Personalized AI Interview
+- Guided onboarding
+- Multiple-choice questions
+- Discovers AI usage patterns
+- Builds workflows based on user needs
+
+### 📊 Interactive Dashboard
+- Personalized overview
+- AI workflow statistics
+- Favorite workflows
+- Recent activity
+
+### 📝 Workflow Manager
+- Create workflows
+- Edit workflows
+- Duplicate workflows
+- Delete workflows
+- Favorite workflows
+- Search & Filter
+- Local Storage support
+
+### 🧩 Prompt Builder
+Build prompts using reusable blocks:
+
+- Role
+- Objective
+- Context
+- Constraints
+- Reasoning Strategy
+- Tone
+- Examples
+- Output Format
+- Quality Checks
+
+Live prompt preview included.
+
+---
+
+### 🔄 Loop Builder
+
+Convert normal prompts into autonomous AI systems using:
+
+- Goal
+- Evaluation Criteria
+- Improvement Strategy
+- Stop Conditions
+- Safety Rules
+
+---
+
+### 📚 Reusable Prompt Systems
+
+Instead of storing static prompts, the playbook generates modular prompt templates that can be customized with editable variables.
+
+---
+
+### 💾 Local Storage
+
+Automatically saves:
+
+- Workflows
+- Favorites
+- Preferences
+- Settings
+
+---
+
+### 📤 Import & Export
+
+- Export Playbook
+- Import Existing Data
+- Backup Workflows
+
+---
+
+### 🌙 Modern UI
+
+- Beautiful Glassmorphism
+- Dark Theme
+- Responsive Design
+- Smooth Animations
+- Keyboard Shortcuts
+
+---
+
+## 🛠 Tech Stack
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+No frameworks.
+No external libraries.
+
+---
+
+## 📂 Project Structure
+
+```
+Personal-AI-Playbook/
+│
+├── index.html
+├── README.md
+└── screenshots/
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project demonstrates:
+
+- Prompt Engineering
+- AI Workflow Design
+- Human-Centered UX
+- Local Storage Management
+- Interactive UI Development
+- Vanilla JavaScript
+- Reusable AI Systems
+
+---
+
+## 📸 Preview
+
+Add screenshots here after completing the project.
+
+---
+
+## 🚀 Future Improvements
+
+- AI Model Integrations
+- Cloud Sync
+- Team Collaboration
+- Voice Commands
+- Workflow Analytics
+- AI Marketplace
+- Plugin Support
+
+---
+
+## 🏆 Challenge
+
+**ABTalks 60-Day Coding Challenge**
+
+**Day 49 — Personal AI Systems**
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by **Dheer Goel**
