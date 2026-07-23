@@ -1,0 +1,100 @@
+# 🛡️ Defend Your Experience – AI Career Intelligence (Day 50)
+
+An AI-powered adaptive interview defense simulator that helps professionals confidently defend every claim on their resume, portfolio, LinkedIn profile, or project documentation.
+
+Built as part of the **ABTalks 60-Day Coding Challenge – Day 50**.
+
+## 🚀 Overview
+
+Traditional interview preparation focuses on answering common questions.
+
+**Defend Your Experience** goes a step further.
+
+Instead of asking generic interview questions, the application extracts meaningful claims from your uploaded experience and continuously challenges you with personalized follow-up questions, just like an experienced interviewer.
+
+The goal is to help users:
+
+* Defend every achievement with confidence
+* Identify weak or unsupported claims
+* Improve storytelling skills
+* Prepare for difficult recruiter and hiring manager questions
+* Build interview confidence through adaptive practice
+
+---
+
+## ✨ Features
+
+* 📄 Drag & Drop Resume / Portfolio Upload
+* 🤖 AI-Powered Adaptive Interview Simulation
+* 🎯 Personalized Follow-up Questions
+* 📊 Confidence Score Dashboard
+* 📈 Defense Progress Tracking
+* ⚠️ Weak Claim Detection
+* 💡 Storytelling Recommendations
+* 📑 Final Defense Report
+* 💾 Local Storage Support
+* 🕒 Session History
+* 📤 Export Results
+* 📱 Fully Responsive Design
+* 🌙 Modern Premium UI
+* ⚡ Graceful API Error Handling
+
+---
+
+## 🛠️ Tech Stack
+
+* HTML5
+* CSS3
+* Vanilla JavaScript
+* Anthropic Messages API
+* Local Storage
+
+---
+
+## 🎯 How It Works
+
+1. Upload your resume, LinkedIn profile, portfolio, or project.
+2. AI extracts every meaningful claim.
+3. The interview begins.
+4. Each answer generates deeper, personalized follow-up questions.
+5. Weak areas are identified automatically.
+6. Receive a comprehensive Defense Report with actionable recommendations.
+
+---
+
+## 📚 Learning Outcomes
+
+Through this project I explored:
+
+* Adaptive AI interview systems
+* Personalized conversational UX
+* Prompt engineering
+* AI-driven confidence assessment
+* Interactive dashboard design
+* Frontend application architecture
+
+---
+
+## 📸 Preview
+
+*(Add screenshots here)*
+
+---
+
+## 🌟 Future Improvements
+
+* Voice interview mode
+* Webcam practice
+* STAR answer evaluation
+* Recruiter personas
+* Company-specific interview simulations
+* Behavioral interview analytics
+* Performance trends over time
+
+---
+
+## 🙌 Acknowledgements
+
+Built during the **ABTalks 60-Day Coding Challenge** to explore practical AI applications for career preparation.
+
+If you found this project useful, consider giving it a ⭐.
