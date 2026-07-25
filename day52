@@ -1,0 +1,79 @@
+# 🏗️ System Design Blueprint
+
+> Day 2 of the ABTalks 10-Day Capstone Project
+
+This repository contains the complete system design and technical architecture for my capstone project. The goal of Day 2 was to convert the product idea into an implementation-ready technical blueprint before writing any production code.
+
+## 📌 Objectives
+
+- Finalize the technology stack
+- Design scalable system architecture
+- Create database schema
+- Define REST API endpoints
+- Design user flows & wireframes
+- Plan project folder structure
+- Prepare for implementation starting Day 3
+
+## 📂 Project Documents
+
+- 📖 ARCHITECTURE.md
+- 🗄️ SCHEMA.md
+- 🔌 API.md
+- 🎨 UI-WIREFRAMES.md
+- 📁 PROJECT-STRUCTURE.md
+
+## 🛠️ Proposed Tech Stack
+
+### Frontend
+- React.js
+- Tailwind CSS
+- React Router
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+
+### Authentication
+- JWT Authentication
+
+### AI Integration
+- OpenAI API
+
+### Deployment
+- Vercel
+- Render
+- MongoDB Atlas
+
+## 📈 Deliverables
+
+✔ System Architecture
+
+✔ Database Design
+
+✔ API Documentation
+
+✔ UI Wireframes
+
+✔ Folder Structure
+
+✔ Development Roadmap
+
+## 🚀 Next Milestone
+
+Day 3 begins the implementation phase where the frontend, backend, database, and authentication modules will be developed.
+
+---
+
+## Challenge
+
+ABTalks 60-Day Coding Challenge
+
+Day 52 — Capstone Project (System Design)
+
+---
+
+⭐ Feel free to explore the project and share your feedback!
