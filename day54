@@ -1,0 +1,98 @@
+# 🚀 Capstone Project – Day 54: Core Feature Implementation
+
+Welcome to **Day 4** of my ABTalks 10-Day Capstone Project.
+
+Today marks the transition from project setup into actual feature development. The focus was on implementing the first production-ready user-facing functionality while following the architecture and system design created during the previous days.
+
+---
+
+## 📅 Challenge Progress
+
+- ✅ Day 1 – Product Discovery
+- ✅ Day 2 – System Design
+- ✅ Day 3 – Project Setup & Foundation
+- ✅ Day 4 – Core Feature Implementation
+
+---
+
+## 🎯 Objectives Completed
+
+- Implemented the first major application feature
+- Connected frontend with backend APIs
+- Integrated database operations
+- Added authentication flow
+- Built reusable UI components
+- Connected API client
+- Implemented protected routing
+- Added validation and error handling
+- Improved application state management
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB Atlas
+- Mongoose
+
+### Authentication
+- JWT
+- bcrypt
+
+### Tools
+- Git
+- GitHub
+- VS Code
+- Postman
+
+---
+
+## 📂 Project Structure
+
+```
+client/
+server/
+docs/
+README.md
+```
+
+---
+
+## 🚀 Features
+
+✔ Authentication
+
+✔ API Integration
+
+✔ Protected Routes
+
+✔ Responsive UI
+
+✔ Database Connectivity
+
+✔ Modular Architecture
+
+✔ Error Handling
+
+✔ Reusable Components
+
+---
+
+## 📌 Upcoming
+
+Tomorrow focuses on expanding the core functionality with additional user-facing features and enhanced interactions.
+
+---
+
+⭐ Thanks for checking out the project!
