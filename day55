@@ -1,0 +1,85 @@
+# 🚀 Capstone Project – Day 5: Continue Core Feature Development
+
+> ABTalks 10-Day Capstone Project | Day 5 of 10
+
+## 📅 Overview
+
+Day 5 focused on expanding the application's core functionality while ensuring all previously implemented features continued to work correctly. The emphasis was on building forward without introducing regressions.
+
+This phase strengthened the application's architecture, improved user interactions, and refined the overall development workflow.
+
+---
+
+## ✅ Objectives Completed
+
+- Continued implementation of scheduled core features
+- Refactored components to improve maintainability
+- Improved application state management
+- Enhanced UI responsiveness and consistency
+- Added validation and error handling
+- Verified backward compatibility with previous milestones
+- Cleaned and organized project structure
+- Updated documentation
+
+---
+
+## 🛠 Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Free APIs (where applicable)
+- Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+project/
+│
+├── index.html
+├── css/
+├── js/
+├── assets/
+├── README.md
+└── docs/
+```
+
+---
+
+## 🚀 Progress
+
+- ✅ Day 1 — Product Discovery
+- ✅ Day 2 — System Design
+- ✅ Day 3 — Project Setup
+- ✅ Day 4 — Core Feature Implementation
+- ✅ Day 5 — Continue Core Feature Development
+
+---
+
+## Lessons Learned
+
+- Building incrementally reduces bugs.
+- Refactoring early improves scalability.
+- Proper validation greatly enhances user experience.
+- Small architectural improvements save significant effort later.
+
+---
+
+## Next Steps (Day 6)
+
+- Complete remaining core features
+- Integrate advanced functionality
+- Optimize application performance
+- Begin end-to-end testing
+
+---
+
+## Author
+
+**Dhawal Goel**
+
+ABTalks Capstone Challenge (10 Days)
+
+Day 5 ✅ Complete
