@@ -1,0 +1,114 @@
+# 🚀 AI-Powered Student Performance Prediction System
+
+> Version: **v1.0.0** | Capstone Project – AB Talks 60-Day Claude AI Challenge
+
+## 📖 Overview
+
+The AI-Powered Student Performance Prediction System is a machine learning web application that predicts student academic performance using historical educational and demographic data. The application helps educators identify at-risk students early and provides actionable insights for improving learning outcomes.
+
+This project was built as the final capstone of the **AB Talks 60-Day Claude AI Challenge**, following the complete Software Development Lifecycle—from planning and system design to development, testing, deployment, and production release.
+
+---
+
+## ✨ Features
+
+- 📊 Student Performance Prediction
+- 🤖 Machine Learning Model
+- 📈 Performance Analytics Dashboard
+- 📋 User-Friendly Interface
+- ⚡ Fast Prediction Results
+- 📱 Responsive Design
+- 🔒 Input Validation
+- 🚀 Production Ready (v1.0.0)
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+
+### Backend
+- Python
+- Flask
+
+### Machine Learning
+- Scikit-Learn
+- Pandas
+- NumPy
+
+### Database
+- SQLite
+
+---
+
+## 📂 Project Structure
+
+```
+project/
+│
+├── app.py
+├── model.pkl
+├── requirements.txt
+├── static/
+├── templates/
+├── database/
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone <repository-url>
+
+cd project
+
+pip install -r requirements.txt
+
+python app.py
+```
+
+---
+
+## 🎯 Future Improvements
+
+- User Authentication
+- Cloud Deployment
+- Model Retraining Pipeline
+- Explainable AI
+- Multiple ML Models
+- Student Progress Tracking
+- Teacher Dashboard
+- Mobile App
+
+---
+
+## 📸 Demo
+
+Add screenshots of:
+
+- Home Page
+- Prediction Form
+- Prediction Result
+- Analytics Dashboard
+
+---
+
+## 👨‍💻 Developed By
+
+**Dhawal Goel**
+
+Capstone Project – AB Talks 60-Day Claude AI Challenge
+
+Version **v1.0.0**
+
+---
+
+## ⭐ If you like this project
+
+Give this repository a ⭐ and share your feedback!
