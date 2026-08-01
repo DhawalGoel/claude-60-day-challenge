@@ -1,0 +1,200 @@
+# 🚀 AI Career Intelligence Platform
+
+> A production-ready AI-powered career assistant that helps users prepare for interviews, improve resumes, and receive personalized career guidance using Google's Gemini AI.
+
+![Status](https://img.shields.io/badge/Status-Production%20Ready-success)
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![Node](https://img.shields.io/badge/Backend-Node.js-green)
+![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-orange)
+![License](https://img.shields.io/badge/License-MIT-purple)
+
+---
+
+## 📌 Overview
+
+The AI Career Intelligence Platform provides an intelligent assistant for job seekers by combining modern web technologies with AI.
+
+Users can:
+
+- 🤖 Ask career-related questions
+- 📄 Improve resumes
+- 💼 Prepare for interviews
+- 🎯 Receive personalized career suggestions
+- ⚡ Get instant AI-powered responses
+
+---
+
+# ✨ Features
+
+- AI Chat Assistant
+- Resume Review
+- Interview Preparation
+- Career Roadmap Suggestions
+- Responsive UI
+- Fast Performance
+- Error Handling
+- Loading States
+- Production Deployment
+- Mobile Friendly
+
+---
+
+# 🛠 Tech Stack
+
+Frontend
+- React
+- Vite
+- Tailwind CSS
+
+Backend
+- Node.js
+- Express.js
+
+AI
+- Google Gemini API
+
+Deployment
+- Vercel
+
+Version Control
+- Git
+- GitHub
+
+---
+
+# 📁 Project Structure
+
+```
+client/
+server/
+
+components/
+pages/
+hooks/
+utils/
+
+public/
+
+README.md
+```
+
+---
+
+# ⚙ Installation
+
+Clone repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY
+```
+
+Move inside project
+
+```bash
+cd project-name
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run locally
+
+```bash
+npm run dev
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create
+
+```
+.env
+```
+
+Example
+
+```
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+---
+
+# 🚀 Live Demo
+
+Production URL
+
+```
+Add your deployed application link here
+```
+
+---
+
+# 📸 Screenshots
+
+- Home Page
+- AI Chat
+- Resume Analysis
+- Interview Preparation
+
+(Add screenshots after deployment)
+
+---
+
+# 🔒 Production Improvements
+
+✅ Error Handling
+
+✅ Loading UI
+
+✅ Mobile Responsive
+
+✅ Optimized Build
+
+✅ SEO Ready
+
+✅ Secure Environment Variables
+
+✅ Clean Repository
+
+✅ Deployment Verified
+
+---
+
+# 📈 Future Improvements
+
+- Authentication
+- User Dashboard
+- PDF Resume Export
+- AI Mock Interviews
+- Analytics
+
+---
+
+# 👨‍💻 Developer
+
+**Dhawal Goel**
+
+GitHub:
+(Add GitHub URL)
+
+LinkedIn:
+(Add LinkedIn URL)
+
+---
+
+# ⭐ Support
+
+If you like this project,
+
+⭐ Star the repository.
+
+It motivates future improvements!
+
+---
+
+MIT License
